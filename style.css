@@ -1,0 +1,489 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.con {
+    max-width: 100%;
+    margin: auto;
+
+
+}
+
+.top {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: darkgoldenrod;
+
+
+
+}
+
+.flex {
+    display: flex;
+}
+
+.left {
+
+    width: 80%;
+    padding: 5px;
+    text-align: right;
+    background-color: darkgoldenrod;
+
+}
+
+.center {
+    padding: 10px;
+}
+
+.nav {
+    max-width: 100%;
+    display: flex;
+    gap: 70px;
+    padding: 23px 50px;
+    text-align: center;
+    
+    
+}
+.bod{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 4px;
+}
+#logo {
+
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.center {
+    text-align: center;
+    gap: 20px;
+}
+
+.btn {
+    background-color: orange;
+    color: white;
+    width: 100px;
+    height: 50px;
+    padding: 10px 2px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.box1 {
+
+    background-image: linear-gradient(#eacd82e1, rgba(20, 20, 20, 0.411)), url(https://www.dellaresorts.com/new-images/1new-camp-bnr5.jpg);
+    width: 100%;
+    height: 500px;
+    color: white;
+    text-align: left;
+    padding: 150px 30px;
+    gap: 10px;
+    line-height: 30px;
+
+
+}
+
+.box2 {
+    background-image: linear-gradient(#eacd82e1, rgba(20, 20, 20, 0.411)), url(https://images.pexels.com/photos/261169/pexels-photo-261169.jpeg?cs=srgb&dl=pexels-pixabay-261169.jpg&fm=jpg);
+
+    width: 100%;
+    height: 300px;
+    color: white;
+    text-align: left;
+    padding: 55px 30px;
+    gap: 10px;
+    line-height: 30px;
+   
+
+}
+/* .single{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.758), #eacd82e1),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ--EQB9avyHL3UxUBEdhGzcUx7U_Tc3Ku1-w&s);
+    width:100%;
+    height: 300px;
+    color:white;
+    background-repeat: no-repeat;
+    
+    object-fit: cover;
+} */
+.para{
+    text-align: center;
+    padding:60px;
+    margin:auto;
+    width: 700px;
+    height: 200px;
+    line-height: 2;
+}
+span h1{
+    margin:auto;
+    color:rgb(96, 96, 236);
+}
+.fea{
+    gap:20px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+.feat{
+    text-align: center;
+    padding:20px;
+}
+.list{
+    text-align: center;
+    line-height: 3;
+   
+}
+.button{
+    background-color: #0b8ab8;
+    color:white;
+    width: 95px;
+    height: 35px;
+    border-radius: 3px;
+    padding:6px 13px;
+    margin-top: -7px;
+    margin-left: 20%;
+}
+
+/* .couple{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.758), #eacd82e1),url(https://cdn.homedit.com/wp-content/uploads/2021/09/Grey-bedroom-paint-color.jpg);
+    width:100%;
+    height: 300px;
+    color:white;
+} */
+.grp{
+    width:100%;
+    height: 500px;
+    box-sizing: border-box;
+}
+.para1{
+    padding:21px;
+    font-size: 20px;
+   
+}
+.contact{
+
+}
+.box{
+width: 600px;
+height: 400px;
+background-color: oldlace;
+border-top: 2px gray;
+/*
+background-image: url(https://static.vecteezy.com/system/resources/thumbnails/020/804/109/small_2x/communication-and-technology-concept-hand-putting-wooden-block-cube-symbol-telephone-email-address-website-page-contact-us-or-e-mail-marketing-contact-us-in-customer-support-concept-photo.jpg);
+}*/
+}
+.conn{
+    font-size: 30px;
+  margin-left: 12%;
+ padding: 10px 10px;
+ 
+  
+}
+.data{
+    margin-left: 165px;
+}
+.form{
+    align-items: center;
+    display: grid;
+    width: 200px;
+    height: 100px;
+    
+}
+.form input{
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 19px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width:250px;
+}
+.form button{
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    
+    border-radius: 4px;
+    
+}
+.box{
+    box-shadow: 1px 0px 2px 2px rgb(231, 156, 16);
+    margin-left: 40%;
+    padding: 10px;
+    width:570px;
+    height: 350px;
+}
+.w-100 {
+    width: 500px;
+    height: 228px;
+    border-radius: 10px;
+    gap: 10px;
+
+}
+.w-102{
+    width:60%;
+    display:grid;    height: 200px;
+    padding: 20px 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 16px;
+    
+}
+.w-106{
+    width:60%;
+    height: 250px;
+    
+}
+.s{
+    text-align: center;
+}
+
+.mid {
+    padding: 20px;
+    
+    gap: 10px;
+    margin: 2px;
+}
+
+.mid1 {
+    width: 100%;
+    height: 200px;
+    border: 2px solid gray;
+    
+    margin: auto;
+    line-height: 2;
+    padding: 5px 10px;
+    text-align: left;
+    border-radius: 12px;
+   
+}
+.bn{
+    text-align: center;
+    margin-left:30px;
+}
+.info{
+border:1px solid gray;
+width: 600px;
+margin-left: 270px;
+background: oldlace;
+gap:10px;
+}
+.mid2{
+    width: 115%;
+    height: 222px;
+    border: 2px solid gray;
+    line-height: 1.7;
+    padding: 20px 20px;
+    text-align: left;
+    align-items: center;
+    margin:20px;
+    
+}
+.mid3{
+    width: 115%;
+    height: 222px;
+    border: 2px solid gray;
+    line-height: 1.7;
+    padding: 20px 20px;
+    text-align: left;
+    align-items: center;
+    margin:8px;
+}
+
+.h {
+    padding: 10px;
+   margin: auto;
+}
+
+.feedbox {}
+
+.w-10 {
+    width: 200px;
+    height: 150px;
+    border-radius: 16px;
+    padding: 5px 10px;
+}
+
+.star {
+    color: orange;
+    display: flex;
+    padding: 2px 10px;
+
+}
+.offer{
+    text-align: center;
+    background-color: lightsalmon;
+    font-size: 30px;
+}
+
+.h2 {
+    padding: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+:root {
+    --brand: #B8860B;
+    --primary: #21FCEA;
+    --secondary: #A4C3DF;
+}
+.food{
+    padding:10px;
+    gap: 20px;
+   margin-left:0%;
+   margin-right: 20%;
+}
+.hall{
+    padding:10px;
+    gap: 20px;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    margin: 50px;;
+}
+.grid3{
+    display:grid;
+    
+}
+.roomcat{
+    padding:30px;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+.room1{
+    width:100%;
+    border-radius: 20px;
+    margin:10px;  
+}
+.room2{
+    width:100%;
+   padding:10px 20px;
+    margin:10px;
+}
+.service{
+    width:100%;
+    height:50%;
+    
+    display:inline-flex;
+    padding: 5px 10px;
+    gap:10px;
+    line-height: 2;
+}
+
+main{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.w-101{
+    width:100%;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.879),rgba(255, 166, 0, 0.938));
+}
+
+.footer {
+    background-color: var(--primary);
+
+    width: 100%;
+    height: 150px;
+    padding: 20px 10px;
+    line-height: 30px;
+    color:black;
+
+}
+.resort{
+    
+   width:80%;
+   height: 50%;
+  margin: auto;
+  padding:10px 20px;
+}
+.room{
+    background-image: linear-gradient(#eacd82e1, rgba(20, 20, 20, 0.411)), url(https://www.dellaresorts.com/new-images/1new-camp-bnr5.jpg);
+}
+
+.footer a {
+    text-decoration: none;
+    
+}
+
+.footer-bottom {
+    background-color: rgb(164, 195, 223);
+    width: 100%;
+    
+
+}
+
+.a {
+    text-align: center;
+    padding: 5px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.b {
+    text-align: center;
+    padding: 5px;
+    height: 50px;
+    box-sizing: border-box;
+}
+.story{
+    margin:20px;
+    border-radius: 17px;
+    height: 200px;
+    float:left;
+    padding: 1px 10px;
+    border-radius: 10px;
+    
+}
+.book1{
+    font-size: 15px;
+    padding:15px;
+    
+    /* margin-left:40%; */
+   
+        /* margin-bottom: 15px;
+      
+        font-size: 21px;
+        border: 1px solid #ccc;
+        border-radius: 4px; */
+    
+   
+}
+input{
+    width:50%;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin:8px;
+}
+
+.book2{
+    margin-left: 32%;
+    padding:20px;
+}
+.package{
+    display:flex;
+    
+    }
