@@ -16,10 +16,17 @@ a {
 }
 
 .con {
-    max-width: 100%;
+    max-width: 1280px;
     margin: auto;
 
 
+}
+.ai{
+    align-items: center;
+}
+#logo{
+    height:77px;
+    display: inline;
 }
 
 .top {
@@ -46,6 +53,7 @@ a {
 }
 
 .center {
+    
     padding: 10px;
 }
 
@@ -229,9 +237,9 @@ background-image: url(https://static.vecteezy.com/system/resources/thumbnails/02
     width:570px;
     height: 350px;
 }
-.w-100 {
-    width: 500px;
-    height: 228px;
+.w-100{
+    width: 441px;
+    height: 237px;
     border-radius: 10px;
     gap: 10px;
 
@@ -256,22 +264,23 @@ background-image: url(https://static.vecteezy.com/system/resources/thumbnails/02
 
 .mid {
     padding: 20px;
-    
+    width: 100%;
     gap: 10px;
     margin: 2px;
+    display:flex;
+
+}.home-img{
+    width:20%;
+
 }
 
 .mid1 {
-    width: 100%;
-    height: 200px;
+    width: 700px;
+    height: 250px;
     border: 2px solid gray;
-    
-    margin: auto;
     line-height: 2;
-    padding: 5px 10px;
-    text-align: left;
-    border-radius: 12px;
-   
+    padding:10px;
+    border-radius: 12px; 
 }
 .bn{
     text-align: center;
@@ -286,13 +295,14 @@ gap:10px;
 }
 .mid2{
     width: 115%;
-    height: 222px;
+    height: 240px;
     border: 2px solid gray;
     line-height: 1.7;
     padding: 20px 20px;
     text-align: left;
     align-items: center;
     margin:20px;
+    border-radius: 10px;
     
 }
 .mid3{
@@ -300,15 +310,19 @@ gap:10px;
     height: 222px;
     border: 2px solid gray;
     line-height: 1.7;
-    padding: 20px 20px;
-    text-align: left;
-    align-items: center;
-    margin:8px;
+    padding: 20px;
+   
+    margin:10px;
+    border-radius: 13px;
 }
-
-.h {
+.gall{
+    border-top: 1px solid gray;
     padding: 10px;
+}
+.h {
+    /* padding: 10px; */
    margin: auto;
+   text-align: center;
 }
 
 .feedbox {}
@@ -486,4 +500,20 @@ input{
 .package{
     display:flex;
     
-    }
+}
+.aaa{
+    width:20%;
+}
+@media(max-width:480px){
+    .flex{flex-direction: column;}
+    .left{width:100%;}
+    .nav{display:none;}
+    .grid{grid-template-columns: 1fr;}
+    .w-100{width:100%;}
+    .center{font-size: 16px; }
+    .p{font-size: 14px;}
+    .btn{display: none;}
+    #logo{width:100px; height: 100px;}
+    .mid{flex-direction: column;}
+    .mid1{font-size: 12px; width:443px;}
+}
