@@ -24,23 +24,31 @@ a {
 .ai{
     align-items: center;
 }
-#logo{
+/* #logo{
     height:77px;
     display: inline;
-}
+} */
 
 .top {
-    width: 100%;
+    /* width: 100%; */
     padding: 10px;
     text-align: center;
     background-color: darkgoldenrod;
 
-
-
 }
-
+/*add*/
+.top .con .div{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.top .con .left i,
+.top .con .left{
+    margin-right: 10px;
+}
 .flex {
     display: flex;
+    justify-content: space-between;/*add*/
 }
 
 .left {
@@ -58,13 +66,18 @@ a {
 }
 
 .nav {
-    max-width: 100%;
+    /* max-width: 100%; */
     display: flex;
-    gap: 70px;
+    align-items: center;
     padding: 23px 50px;
-    text-align: center;
+    /* gap: 70px;
+    
+    text-align: center; */
     
     
+}
+.nav li{
+    margin: 0 15px;
 }
 .bod{
     border-top: 1px solid gray;
@@ -73,18 +86,35 @@ a {
 }
 #logo {
 
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
+    height: auto;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    width: 150px;
     
+}
+.w-1{
+    width: 205px;
+    height: 118px;
 }
 
 .center {
     text-align: center;
     gap: 20px;
 }
+.button{
+    padding: 10px 20px;
+    background-color: orange;
+    color:#fff;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
 
-.btn {
+}
+.button:hover{
+    background-color: #c44e24;
+}
+
+/* .btn {
     background-color: orange;
     color: white;
     width: 100px;
@@ -92,25 +122,52 @@ a {
     padding: 10px 2px;
     border-radius: 5px;
     align-items: center;
-}
+} */
 
 .box1 {
 
     background-image: linear-gradient(#eacd82e1, rgba(20, 20, 20, 0.411)), url(https://www.dellaresorts.com/new-images/1new-camp-bnr5.jpg);
-    width: 100%;
+    /* width: 100%;
     height: 500px;
     color: white;
     text-align: left;
     padding: 150px 30px;
     gap: 10px;
-    line-height: 30px;
-
-
+    line-height: 30px; */
+    background-size: cover;
+    background-position: center;
+    padding:100px 0;
+    color:#fff;
+    text-align: center;
+    background-color: #ccc;
+}
+.box1 h1{
+    font-size:2.5rem;
+    margin-bottom: 20px;
+}
+.box1 .p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* .box1 .p{
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+} */
+.box1 .btn{
+    padding: 10px 20px;
+    background-color: orange;
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.box1 .btn:hover{
+    background-color: #c44e24;
 }
 
 .box2 {
     background-image: linear-gradient(#eacd82e1, rgba(20, 20, 20, 0.411)), url(https://images.pexels.com/photos/261169/pexels-photo-261169.jpeg?cs=srgb&dl=pexels-pixabay-261169.jpg&fm=jpg);
-
     width: 100%;
     height: 300px;
     color: white;
@@ -121,15 +178,7 @@ a {
    
 
 }
-/* .single{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.758), #eacd82e1),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ--EQB9avyHL3UxUBEdhGzcUx7U_Tc3Ku1-w&s);
-    width:100%;
-    height: 300px;
-    color:white;
-    background-repeat: no-repeat;
-    
-    object-fit: cover;
-} */
+
 .para{
     text-align: center;
     padding:60px;
@@ -168,12 +217,7 @@ span h1{
     margin-left: 20%;
 }
 
-/* .couple{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.758), #eacd82e1),url(https://cdn.homedit.com/wp-content/uploads/2021/09/Grey-bedroom-paint-color.jpg);
-    width:100%;
-    height: 300px;
-    color:white;
-} */
+
 .grp{
     width:100%;
     height: 500px;
@@ -259,31 +303,88 @@ background-image: url(https://static.vecteezy.com/system/resources/thumbnails/02
 .s{
     text-align: center;
 }
+.information{
+    padding:50px 0;
+}
 
 .mid {
-    padding: 20px;
+    /* padding: 20px;
     width: 100%;
     gap: 10px;
-    margin: 2px;
+    margin: 2px; */
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
     display:flex;
 
-}.home-img{
-    width:20%;
+}
+.home-image img{
+    /* border-radius: 50%; */
+    width:433px;
+    height: 300px;
+    /* object-fit: cover; */
 
 }
 
+/* .home-img{
+    width:20%;
+
+} */
+
 .mid1 {
-    width: 700px;
+    /* width: 700px;
     height: 250px;
     border: 2px solid gray;
     line-height: 2;
-    padding:10px;
+    padding:10px;*/
+    
+    border:2px solid gray;
     border-radius: 12px; 
+    width: 700px;
+    height: 253px; 
+    padding:10px;
+    /* flex:2; */
+}
+.mid1 h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    /* display: flex; */
+}
+.mid1 p{
+    font-size: 1.1rem;
+    line-height: 1.5;
+    display: flex;
 }
 .bn{
     text-align: center;
     margin-left:30px;
 }
+.picture{
+   
+    background-color: #fff;
+}
+.feebbox{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+.box3{
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding:20px;
+    text-align:center;
+}
+.box3 img{
+    width: 169px;
+    height:150px;
+    border-radius:5px;
+}
+.h2{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
 .info{
 border:1px solid gray;
 width: 600px;
@@ -325,17 +426,18 @@ gap:10px;
 
 
 
-.w-10 {
+/* .w-10 {
     width: 200px;
     height: 150px;
     border-radius: 16px;
     padding: 5px 10px;
-}
+} */
 
 .star {
     color: orange;
-    display: flex;
-    padding: 2px 10px;
+    margin: 10px 0;
+    /* display: flex;
+    padding: 2px 10px; */
 
 }
 .offer{
@@ -416,14 +518,20 @@ main{
 
 .footer {
     background-color: var(--primary);
-
-    width: 100%;
-    height: 150px;
-    padding: 20px 10px;
-    line-height: 30px;
+    /* width: 100%;
+    height: 150px; */
+    padding: 25px 0px;
+    /* line-height: 30px; */
+    /* text-align: center; */
+    
     color:black;
 
 }
+.footer a{
+    color:#0a0909;
+    
+}
+
 .resort{
     
    width:80%;
@@ -435,14 +543,17 @@ main{
     background-image: linear-gradient(#eacd82e1, rgba(20, 20, 20, 0.411)), url(https://www.dellaresorts.com/new-images/1new-camp-bnr5.jpg);
 }
 
-.footer a {
+/* .footer a {
     text-decoration: none;
     
-}
+} */
 
 .footer-bottom {
     background-color: rgb(164, 195, 223);
-    width: 100%;
+    /* width: 100%; */
+    color:#fff;
+    padding:10px 0;
+    text-align: center;
     
 
 }
@@ -471,25 +582,45 @@ main{
 }
 .book1{
     font-size: 15px;
-    padding:15px;
-    
-    /* margin-left:40%; */
-   
-        /* margin-bottom: 15px;
-      
-        font-size: 21px;
-        border: 1px solid #ccc;
-        border-radius: 4px; */
-    
-   
+    padding:15px; 
+    margin-bottom: 15px; 
 }
-input{
+.book1 label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.book1 input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.book2 {
+    text-align: center;
+}
+
+.book2 .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+   margin-left: -54px;
+   margin-right:130px;
+
+}
+
+.book2 .button:hover {
+    background-color: #0056b3;
+}
+/* input{
     width:50%;
     height: 50px;
     box-sizing: border-box;
     border-radius: 3px;
     margin:8px;
-}
+} */
 
 .book2{
     margin-left: 32%;
@@ -502,19 +633,111 @@ input{
 .aaa{
     width:20%;
 }
+ .nav-mobile{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+ top: 2.5rem;
+ left: 0;
+ background: #222831;
+ z-index: 1;
+ width: 200px; 
+    
+}
+.nav-mobile a {
+    color: #fff;
+    padding: 1rem 1.5rem;
+    display: block;
+   
+   }
+.checkbtn{
+    display: none;
+    font-size: 30px;
+ /* color: white; */
+ cursor: pointer;
+ 
+} 
+#check:checked ~ .nav-mobile {
+
+    display: block;
+   
+   }
+   .bi-list{
+   
+    color:rgba(0, 0, 0, 0.843);
+   }
+   .w3-animate-right{
+    animation: animateleft 0.5s ease-out;
+   }
+   .hamburger{
+    display:none;
+   }
+   #check{display: none;}
+
+
+
 @media(max-width:480px){
+    .top{position: relative;}
     .flex{flex-direction: column;}
-    .left{width:100%;}
+    .left{width: 100%; text-align: center;}
     .nav{display:none;}
     .grid{grid-template-columns: 1fr;}
-    .w-100{width:100%;}
+    .grid2{grid-template-columns: 2fr;}
+    
     .center{font-size: 16px; }
-    .p{font-size: 13px;}
+    
+    .p{font-size: 15px; line-height: 1;}
     .btn{display: none;}
-    #logo{width:667px; height: 240px;}
+    #logo{left: 20px;}
     .mid{flex-direction: column;}
-    .mid1{font-size: 12px; width:443px;}
+    .mid1{width:100%; border:none;}
+    
+    .mid2{Width:100% ;border:none;line-height: 1.2;text-align: left; }
+    .mid3{width:100%;border:none; line-height:1.2;padding:3px;}
+    .w-100{width:100%;}
+    .w-101{width:100%;}
+    .w-106{width: 100%;
+    display:flex;}
+     /* .w-1{align-items: start;}  */
+    .box1{width:100%;height:auto;}
+    
+    
+    .p1{font-size: 15px;line-height: 1;}
+    .box{width:300px;margin:auto;}
+    .data{width:100px;margin: 7px;}
+    .conn{font-size: 17px;}
+    form{width: 200px;}
+    .info{width:400px;margin: 20;}
+#check{display: none;}
+    .checkbtn {
+        display: block;
+         font-size: 2rem;
+        position: absolute;
+        float:left;
+        top: 107px;
+        right: 341px; 
+        }
+        
+        .nav-mobile {
+            top:145px;
+            right: 276px;
+            width: 148px;
+            height: 260px;
+            }
+           .nav-mobile a {
+            font-size: 1rem;
+            padding: 1rem 1rem;
+
+            }
+            .hamburger{display:flex;
+                align-items: center;} 
+                .home-image img{
+                    width:100%;
+                    height:auto;
+                    border-radius: 0;
+                }
+                .foooter{display: block;}
 }
-/* @media(min-width:480px) and (max-width:780px){
+ @media(min-width:480px) and (max-width:780px){
     .flex{display:flex;}
-} */
+} 
